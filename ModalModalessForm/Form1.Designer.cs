@@ -34,33 +34,36 @@
             // 
             // btmModal
             // 
-            this.btmModal.Location = new System.Drawing.Point(12, 27);
+            this.btmModal.Location = new System.Drawing.Point(10, 22);
+            this.btmModal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btmModal.Name = "btmModal";
-            this.btmModal.Size = new System.Drawing.Size(223, 141);
+            this.btmModal.Size = new System.Drawing.Size(195, 113);
             this.btmModal.TabIndex = 1;
             this.btmModal.Text = "모달창 띄우기";
             this.btmModal.UseVisualStyleBackColor = true;
             // 
             // btnModaless
             // 
-            this.btnModaless.Location = new System.Drawing.Point(241, 27);
+            this.btnModaless.Location = new System.Drawing.Point(211, 22);
+            this.btnModaless.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnModaless.Name = "btnModaless";
-            this.btnModaless.Size = new System.Drawing.Size(230, 141);
+            this.btnModaless.Size = new System.Drawing.Size(201, 113);
             this.btnModaless.TabIndex = 4;
             this.btnModaless.Text = "모달리스창 띄우기";
             this.btnModaless.UseVisualStyleBackColor = true;
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(483, 201);
+            this.ClientSize = new System.Drawing.Size(423, 161);
             this.Controls.Add(this.btnModaless);
             this.Controls.Add(this.btmModal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "FormMain";
-            this.Text = "Modal & Modaless 창 띄우기 by 3199 ㅇㅇㅇ";
+            this.Text = "Modal & Modaless 창 띄우기 by 3617 홍은빈";
             this.ResumeLayout(false);
 
         }
